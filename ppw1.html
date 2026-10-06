@@ -1,0 +1,103 @@
+-PERCOBAAN 1-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>Sistem Informasi Data Mahasiswa</header>
+    <h1>Sistem Informasi Data Mahasiswa Praktkum PPW-A</h1>
+    <p>Sistem ini berisi data data dari mahasiswa yang mengikuti praktikum PPW-A</p>
+    <img src="logo.png", alt="Logo Universitas Lampung", width="150", height="150" />
+    <hr />
+    <nav>
+        <ul> 
+            <li><a href="#informasi">Informasi Aplikasi</a></li>
+            <li><a href="#daftar-mahasiswa">Daftar Mahasiswa</a></<li>
+            <li><a href="#form-tambah-mahasiswa">Tambah Mahasiswa Baru</a></li>
+        </ul>
+        </nav>
+
+-PERCOBAAN 2-
+
+<hr>
+<main>
+    <section id="informasi">
+        <h2>Informasi Aplikasi</h2>
+        <p>Aplikasi ini dirancang untuk mengelola data dari mahasiswa yang mendaftar praktikum pemrograman web.</p>
+        <article>
+            <h3>Detail dari Aplikasi</h3>
+            <p>Aplikasi ini menyediakan fitur untuk menambah, mengedit dan menghapus data mahasiswa</p>
+            <p>Dan Aplikasi ini juga menunjukkan daftar mahasiswa yang mendaftar praktikum</p>
+        </article>
+        <hr>
+        <section id="daftar-mahasiswa-aktif">
+            <h2>Daftar Mahasiswa</h2>
+            <p>Berikut adalah daftar mahasiswa yang mendaftar praktikum PPW-A</p>
+            <table>
+                border="1">, cellpadding="10", cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                         <th>Foto</th>
+                        <th>NPM</th>
+                        <th>Nama Lengkap</th>
+                        <th>Program Studi</th>
+                        <th>Angkatan</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img src="foto1.jpg" alt="Udin Petot" width="100" height="100"></td>
+                        <td>24150009388</td>
+                        <td>Udin Petot</td>
+                        <td>Teknik Informatika</td>
+                        <td>2020</td>
+                        <td>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section id ="tambah mahasiswa baru">
+             <h2>Tambah Mahasiswa Baru</h2>
+            <p>Berikut ini adalah form untuk menambah mahasiswa baru</p>
+        </section>
+        <form>
+    <input>
+ <label for="npm">Nomor Pokok Mahasiswa :</label><br />
+              <input
+                type="text"
+                id="npm"
+                name="angktan"
+                placeholder="Contoh: 2315061118"
+                required
+                min="2018"
+                max="2026"
+                title="NPM harus berupa angka 8-12 digit"
+              /><br />
+              <small>Masukkan 8 hingga 12 digit angka NPM Anda.</small>
+            <label for="email">email mahasiswa</label><br />
+            <input type="email"
+            id="email"
+            name="email"
+            placeholder="Contoh : Email@gmail.com"
+            required /><br>
+            <small>Pastikan email aktif</small>
+
+            <button type="submit">
+                <input Simpan Data Mahasiswa
+            type="reset" />
+        <input Reset Formulir /> </button>
+            </button>     
+        </form>
+</main>
+</body> 
+</html>
+
+
+
